@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+/*INDEX*/
+
+body{
+    background-color: #fff;
+}
+
+.wall-title {
+    font-family: Catamaran;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;   
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #f2f2f2;
+    padding-top: 240px;
+}
+
+.first div h1 {
+    color: #fff;
+    font-family: Catamaran;
+    font-size: 30px;
+    font-style: initial;
+    text-align: center;
+    text-shadow: 1px 1px 40px #111;
+    width: 1000px;
+    margin: 5px auto;
+}
+
+/*effetto parallax*/
+.fancy-effect {
+    min-height: 700px;
+    background: transparent;
+    z-index: -100;
+}
+
+/*fade*/
+.rectangles {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.rectangles:hover, .rectangles:focus, .rectangles:active {
+  background-color: #111;
+  color: white;
+}
+
+.square {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.square:hover, .square:focus, .square:active {
+  background-color: #111;
+  color: white;
+}
+
+
+/*grow*/
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+header {
+    background-color: #1f1f1f;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 100px;
+}
+
+header nav ul {
+    display: block;
+    margin-left: 15px;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 30px 15px;
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+header h2{
+    text-align: right;
+    color: #fff;
+    font-family: Catamaran;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 15px 15px;
+    padding-right: 30px;
+}
+
+.first{
+    margin-top: 100px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    margin-top: 750px;
+}
+
+.transparent-container{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.rect-containers{
+    margin-top: 20px;
+}
+
+.rectangles{
+    width: 380px;
+    margin: 0 15px 0px;
+    background-color: #f5f5f5;
+    height: 700px;
+    float: left;
+}
+
+.rectangles-image{
+    width: 380px;
+    margin: 0 15px 0px;
+    /*background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    height: 700px;
+    float: left;
+}
+
+.square-rectangles{
+    width: 380px;
+    margin: 0 15px 0px; 
+    height: 700px;
+    float: left;
+}
+
+.square{
+    width: 380px;
+    margin: 0px 0 15px;
+    background-color: #f5f5f5;
+    height: 345px;
+    float: left;
+}
+
+.main-title{
+    margin: 50px 0 5px 15px;
+    text-transform: uppercase;
+    font-family: Catamaran;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.rectangles div{
+    margin: 30px 0 0 25px;
+}
+
+.rectangles h2{
+    font-family: Catamaran;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.rectangles div h3{
+    font-family: Catamaran;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.rectangles div p{
+    font-family:  Catamaran;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/*.rectangles img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: src("wallpaper.jpg");
+}*/
+
+.square div{
+    margin: 30px 0 0 25px;
+}
+
+.square h2{
+    font-family: Catamaran;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.square div h3{
+    font-family: Catamaran;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.square div p{
+    font-family:  Catamaran;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1000px){
+    .container {
+        width: 100%;
+    } 
+    
+    .transparent-container{
+        width: 100%;
+    }
+    
+    header nav ul{  
+        margin:  0 auto;
+    }
+    
+    .first{
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .wall-title {
+        line-height:  50px;
+        padding-top: 30px;
+        font-size: 35px;
+        text-align: left;
+        width: 35%;
+        margin-left: 10px;
+        word-spacing: 16px;
+        letter-spacing: 6px;
+        text-shadow: none;
+        font-weight: 900;
+    }
+    
+    header{
+        position: fixed;
+    }
+    
+    .useless-title{
+        display: none;
+    }
+    
+    .first div h1 {
+        font-size: 20px;
+        text-align: right;
+        width: 50%;
+        margin: 50px 10px 0;
+        line-height: 30px;
+        float: right;
+        word-spacing: 16px;
+        letter-spacing: 6px;
+    }
+    
+    header{
+        height: 80px;
+        width: 100%;
+    }
+    
+    .titles-footer{
+        display: none;
+    }
+    
+    .info-footer{
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    
+    .rectangles-image {
+        display: none;
+    }
+    
+    .square-rectangles{
+        width: calc(100% - 15px);
+        float: none;
+    }
+
+    .square{
+        width: calc(100% - 15px);
+        float: none;
+    }
+    
+    .rectangles{
+        width: calc(100% - 30px);
+        float: none;
+    }
+    
+    body{
+        width: 100%;
+    }
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #111;
+    padding: 40px 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer ul{
+    color: #fff;
+    width: fit-content;
+    font-family: Catamaran;
+    font-size:20px;
+    float:left;
+    margin: 0 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.contact {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Catamaran;
+}
+
+.img-container{
+    margin-top: 0;
+}
+
+footer img {
+    width: 140px;
+    height: 140px;
+    float: right;
+}
+
+.qr-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Catamaran;
+    width: fit-content;
+    float: left;
+    margin-left: 350px;
+}
+
+@media only screen and (max-width: 1000px){
+    footer{
+        padding: 0;
+        height: 150px;
+    }
+    
+    footer ul{ 
+        margin-top: 0;
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    footer img{
+        display: none;
+    }
+    
+    .container {
+        margin-top: 20px;
+        overflow: auto; 
+    }
+}
